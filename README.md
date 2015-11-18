@@ -1,4 +1,4 @@
-# peerio-documentation
+# Peerio Documentation
 Here you will find technical, legal, and practical information about Peerio.
 <br>
 <br>
