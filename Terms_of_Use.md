@@ -8,7 +8,7 @@ Much of the information contained in the following Terms of Use involves legal s
 <br>
 <br>If you are primarily interested in what data is available to Peerio and how your data is handled, please view our <a href="https://github.com/PeerioTechnologies/peerio-documentation/blob/master/Privacy_Policy.md">Privacy Policy</a>.
 <br>
-<br>If you are primarily interested in how Peerio responds to law enforcement, please view our <a href="https://github.com/PeerioTechnologies/peerio-documentation/blob/master/Law_Enforcement_Guidelines.md">Law Enforcement Guidelines</a>.*
+<br>If you are primarily interested in how Peerio responds to law enforcement, please view our <a href="https://github.com/PeerioTechnologies/peerio-documentation/blob/master/Law_Enforcement_Guidelines.md">Law Enforcement Guidelines</a>.
 <br>
 <h3>1.	Acceptance of Terms</h3>
 Technologies Peerio Inc. ("Peerio" or "we") makes certain websites, applications and service (the “Services”) available to you, subject to these terms of use (the “Terms of Use”).  By accessing, browsing and/or using the Services, you acknowledge that you have read, understood and agree to abide by and comply with these Terms of Use, which are intended to be legally binding upon you. We may change the Terms of Use at any time, at our sole discretion, by posting revisions on our website or through any applicable application, and your continued use of the Services indicates your agreement to the modified Terms of Use. Accordingly, we urge you to review the Terms of Use. If you do not agree to the Terms of Use or any revisions thereto, please do not use the Services.
