@@ -12,3 +12,7 @@ For legal talk, including things such as licenses, service agreements, intellect
 <br>
 <h4>Law Enforcement Guidelines</h4>
 If you are interested in how Peerio responds to law enforcement, please view our <a href="https://github.com/PeerioTechnologies/peerio-documentation/blob/master/Law_Enforcement_Guidelines.md">Law Enforcement Guidelines</a>
+<br>
+<br>
+<h4>Bug Bounty</h4>
+For informaton about Peerio's bug bounty, including rules and conditions, bounty rewards, and how to submit a claim, please view our <a href="https://github.com/PeerioTechnologies/peerio-documentation/blob/master/Bug_Bounty.md">Bug Bounty</a>
