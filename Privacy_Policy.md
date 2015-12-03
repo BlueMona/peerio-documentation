@@ -5,7 +5,7 @@
 This privacy policy ("Policy") governs how Technologies Peerio Inc. (“Peerio”, "we," "us," "our," etc.) handles and processes users ("you," "your," etc.) data in the Peerio application and on our website and servers (collectively, the "Services").
 <br>
 <br>
-This policy is subject to our Terms of Use as well as any other agreements or notices that may be associated with a particular Peerio product, service, or website ("Peerio offering") and may provide additional information about how Peerio handles your data. Your use of Peerio services or offerings indicates your consent to this Privacy Policy and our Terms of Use. You may not use Peerio if you do not agree to the terms described in this policy.
+This policy is subject to our <a href="https://github.com/PeerioTechnologies/peerio-documentation/blob/master/Terms_of_Use.md">Terms of Use</a> as well as any other agreements or notices that may be associated with a particular Peerio product, service, or website ("Peerio offering") and may provide additional information about how Peerio handles your data. Your use of Peerio services or offerings indicates your consent to this Privacy Policy and our Terms of Use. You may not use Peerio if you do not agree to the terms described in this policy.
 <br>
 <br>Peerio aims to provide ambitious security assurances. As a result, we want to be as open and transparent as possible about our technology and how your data is handled when using Peerio Services. The Peerio app is open source and our client source code is publicly available for review on <a href="https://github.com/PeerioTechnologies">GitHub</a>.
 <br>
