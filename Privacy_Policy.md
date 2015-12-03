@@ -19,17 +19,16 @@ This policy is subject to our <a href="https://github.com/PeerioTechnologies/pee
 <br>Peerio provides message sharing, file sharing, and cloud storage with end-to-end encryption that makes your data inaccessible to anyone other than you and your intended recipient(s), even Peerio cannot access the contents of your messages and files. The confidentiality, integrity and authenticity of the ciphertext (your encrypted data) is designed to be protected by Peerio against:
 <br>
 <br> 
-<ul>
-  <li>*Server compromise* — If Peerio's server network is ever compromised, the content of your messages and files will remain inaccessible to any third party, including Peerio and its employees.</li>
-  <br>
-  <li>*Malicious Host* — The Peerio app protects against message forgery, file modification, and artificial read receipts of messages that have not been read. </li>
-  <br>
-  <li>*Man-in-the-middle attacks*  — The Peerio app provides means for users to securely authenticate each other’s cryptographic identities (see <a href="https://peerio.zendesk.com/hc/en-us/articles/202729949">“avatars”</a> and <a href="https://peerio.zendesk.com/hc/en-us/articles/204394135">“Peerio Public Key”</a>).</li>
-  <br>
-  <li>*Unauthorized account access* — Peerio protects a user’s account and identity by using authentication challenges, including a passphrase, device specific passcodes, and optional <a href="https://peerio.zendesk.com/hc/en-us/articles/203665635">two-factor authentication (2FA)</a>.</li>
-</ul>
++ **Server compromise** — If Peerio's server network is ever compromised, the content of your messages and files will remain inaccessible to any third party, including Peerio and its employees.
+
++ **Malicious Host** — The Peerio app protects against message forgery, file modification, and artificial read receipts of messages that have not been read.
+ 
++ **Man-in-the-middle attacks**  — The Peerio app provides means for users to securely authenticate each other’s cryptographic identities (see <a href="https://peerio.zendesk.com/hc/en-us/articles/202729949">“avatars”</a> and <a href="https://peerio.zendesk.com/hc/en-us/articles/204394135">“Peerio Public Key”</a>).
+
++ **Unauthorized account access** — Peerio protects a user’s account and identity by using authentication challenges, including a passphrase, device specific passcodes, and optional <a href="https://peerio.zendesk.com/hc/en-us/articles/203665635">two-factor authentication (2FA)</a>.
 <br>
 <br>
+
 <h3>2. What the Peerio app does not do</h3>
 
 Peerio does not anonymize connections, geolocation, or the identity of users. Peerio is compatible with certain anonymizing software, however we cannot recommend or guarantee any claims such tools may make. We can only provide assurances about the things we control.
@@ -50,19 +49,18 @@ Peerio uses state-of-the-art encryption to offer high security standards in an i
 <br>The Peerio app is built off the miniLock encryption system, which was designed specifically to tailor to Peerio’s use-cases. Peerio relies on the following cryptographic primitives, or “building blocks”: 
 <br>
 <Br>
-<ul>
-  <li>*Curve25519* — is used to provide public key agreement over elliptic curves.</li>
-  <br>
-  <li>*XSalsa20* — is used in order to provide encryption and confidentiality. </li>
-  <br>
-  <li>*Poly1305* — is used in order to ensure the integrity of encrypted data. </li>
-  <br>
-  <li>*Scrypt* — is used in order to provide memory-hard key derivation. </li>
-  <br>
-  <li>*BLAKE2* — is used for various operations requiring hash function operations.</li> 
-  <br>
-  <li>*miniLock’s header construction* — is used in order to provide some additional cryptographic features and guarantees, including efficient encryption to multiple recipients.</li>
-</ul>
++ **Curve25519** — is used to provide public key agreement over elliptic curves.
+  
++ **XSalsa20** — is used in order to provide encryption and confidentiality.
+  
++ **Poly1305** — is used in order to ensure the integrity of encrypted data.
+
++ **Scrypt** — is used in order to provide memory-hard key derivation.
+
++ **BLAKE2** — is used for various operations requiring hash function operations.
+
++ **miniLock’s header construction** — is used in order to provide some additional cryptographic features and guarantees, including efficient encryption to multiple recipients.
+
 <br>
 For in-transit encryption, Peerio Services use Transport Layer Security (TLS) with best-practice cipher suite configuration, including support for perfect forward secrecy (PFS). You can view a detailed and up-to-date independent review of Peerio’s TLS configuration on <a href="https://www.ssllabs.com/ssltest/analyze.html?d=app.peerio.com&latest">SSL Labs</a>.
 <br>
