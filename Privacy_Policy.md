@@ -1,5 +1,5 @@
 <h1>Privacy Policy</h1>
-*Last updated 18 November 2015*
+*Last updated 18 February 2015*
 <br>
 <br>
 This privacy policy ("Policy") governs how Technologies Peerio Inc. (“Peerio”, "we," "us," "our," etc.) handles and processes users ("you," "your," etc.) data in the Peerio application and on our website and servers (collectively, the "Services").
@@ -124,6 +124,10 @@ The Peerio App and website are able to identify a user's IP address, which can b
 <br>
 <h4>Crash Reports</h4>
 Peerio clients for mobile devices offer optional crash and exception reports. You have the choice of whether to submit such a report to Peerio, and reporting is disabled by default. These reports are completely anonymous and are used to help Peerio improve services and support for Peerio’s mobile and desktop clients. Crash and exception reports will include the device platform, device type, device model, operating system version, Peerio client version, stack track, and the exception name and type. 
+<br>
+<br>
+<h4>Opt-in Analytics</h4>
+Users are able to opt-in for anonymous non-content data collection that aids Peerio's ongoing usability research and design work.  This option is off by default and can be enabled or disabled by the user at any time through their account settings. If enabled, the user agrees to allow the Peerio client to collect non-identifying and non-content data; such as the amount of time spent on a given page or between actions, or which actions are taken or not taken on a page. Data collected in this way is stored on Peerio-hosted servers. This data will never be sold to third parties. Peerio may choose to share this data with other researchers free of charge in the pursuit of improving public knowledge on issues related to security and design.
 <br>
 <br>
 <h3>5. What information Peerio shares with third parties</h3>
