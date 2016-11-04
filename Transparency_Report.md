@@ -1,8 +1,8 @@
 # Transparency Report
 
-*Last updated: 5 July 2016*
+*Last updated: 4 November 2016*
 
-**Requests for access to user data**: As of 5 July, 2016, Peerio has received:
+**Requests for access to user data**: As of 4 November, 2016, Peerio has received:
 * 0 requests to access user data
 * 0 requests have been granted
 * 0 requests were denied
