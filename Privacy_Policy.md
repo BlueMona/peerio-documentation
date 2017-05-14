@@ -23,9 +23,9 @@ This policy is subject to our <a href="https://github.com/PeerioTechnologies/pee
 
 + **Malicious Host** — The Peerio app protects against message forgery, file modification, and artificial read receipts of messages that have not been read.
  
-+ **Man-in-the-middle attacks**  — The Peerio app provides means for users to securely authenticate each other’s cryptographic identities (see <a href="https://peerio.zendesk.com/hc/en-us/articles/202729949">“avatars”</a> and <a href="https://peerio.zendesk.com/hc/en-us/articles/204394135">“Peerio Public Key”</a>).
++ **Man-in-the-middle attacks**  — The Peerio app provides means for users to securely authenticate each other’s cryptographic identities (see <a href="https://peerio.zendesk.com/hc/en-us/articles/204394135">“Peerio ID#”</a>).
 
-+ **Unauthorized account access** — Peerio protects a user’s account and identity by using authentication challenges, including a passphrase, device specific passcodes, and optional <a href="https://peerio.zendesk.com/hc/en-us/articles/203665635">two-factor authentication (2FA)</a>.
++ **Unauthorized account access** — Peerio protects a user’s account and identity by using authentication challenges, a randomly generated Account Key, optional device specific passcodes, and optional <a href="https://peerio.zendesk.com/hc/en-us/articles/203665635">two-factor authentication (2FA)</a>.
 <br>
 <br>
 
@@ -35,18 +35,17 @@ Peerio does not anonymize connections, geolocation, or the identity of users. Pe
 <br>
 <br>Peerio cannot protect against key-loggers or other similar malware and backdoors that may exist on a user’s machine. It is the user’s responsibility to ensure their device is free of such software.
 <br>
-<br>Peerio cannot protect you from passphrase mismanagement, such as telling others your passphrase or storing your passphrase in an insecure location.
+<br>Peerio cannot protect you from Account Key mismanagement, such as telling others your Account Key or storing your Account Key in an insecure location.
 <br>
 <br>Peerio cannot protect you from environmental concerns, such as leaving your device unattended with Peerio open or people looking over your shoulder.
 <br>
-<br>Peerio offers a passcode feature that allows device-specific passwords. It should be noted that passcodes store an encrypted copy of the passphrase on the device where they are configured, and thus are more vulnerable if the device itself is stolen and compromised. For this reason, passcodes should only be used on trusted, well-protected devices.
 <br>
 <br>
 <h3>3. How Peerio protects your privacy</h3>
 <h4>Technology</h4>
 Peerio uses state-of-the-art encryption to offer high security standards in an intuitive, easy-to-use application.
 <br>
-<br>The Peerio app is built off the miniLock encryption system, which was designed specifically to tailor to Peerio’s use-cases. Peerio relies on the following cryptographic primitives, or “building blocks”: 
+<br>Peerio relies on the following cryptographic primitives, or “building blocks”: 
 <br>
 <Br>
 + **Curve25519** — is used to provide public key agreement over elliptic curves.
@@ -59,12 +58,10 @@ Peerio uses state-of-the-art encryption to offer high security standards in an i
 
 + **BLAKE2** — is used for various operations requiring hash function operations.
 
-+ **miniLock’s header construction** — is used in order to provide some additional cryptographic features and guarantees, including efficient encryption to multiple recipients.
-
 <br>
 For in-transit encryption, Peerio Services use Transport Layer Security (TLS) with best-practice cipher suite configuration, including support for perfect forward secrecy (PFS). You can view a detailed and up-to-date independent review of Peerio’s TLS configuration on <a href="https://www.ssllabs.com/ssltest/analyze.html?d=app.peerio.com&latest">SSL Labs</a>.
 <br>
-<br>The Peerio network manages public key exchange and verification, while also offering users independent out-of-band public key authentication. When you sign up for Peerio, you are assigned a randomly generated passphrase. This is then used to derive your unique private encryption key. Your passphrase, along with your username, is used to derive the Public Key assigned to your account. You can independently verify a user’s cryptographic identity via their Public Key or Peerio avatar.
+<br>The Peerio network manages public key exchange and verification, while also offering users independent out-of-band public key authentication. When you sign up for Peerio, you are assigned a randomly generated Account Key. This is then used to derive your unique private encryption key. Your Account Key, along with your username, is used to derive the Peerio ID# assigned to your account. You can independently verify a user’s cryptographic identity via their Peerio ID#.
 <br>
 <h4>Accountability</h4>
 <h5>Open source</h5>
@@ -80,7 +77,7 @@ To encourage community peer review and security research, Peerio offers a <a hre
 <h5>Security audits</h5>
 To ensure Peerio’s security in its most recent iteration keeps pace with contemporary technological standards, Peerio’s client and server code undergo an independent third-party security audit at least once every six months. 
 <br>
-<br>Peerio was last audited 28 September 2015 by expert cryptographers and penetration testers at <a href="https://cure53.de/">Cure53</a>. 
+<br>Peerio was last audited March 2017 by expert cryptographers and penetration testers at <a href="https://cure53.de/">Cure53</a>. 
 <br>
 <br>
 <h5>Organizational structure</h5>
@@ -99,7 +96,7 @@ When you sign up for the Peerio App, we collect the information you provided to 
 <br>
 <br>When you invite your contacts to join Peerio with the "Add Contacts" or "Import Contacts" feature, you provide us with the email addresses and/or phone numbers of your contacts. This information will be used only to send the invitation you have requested via email or SMS. We will not use this information for any other purpose. If your contact does not register for Peerio, their contact information will be securely removed automatically after ninety (90) days. If the contact does join Peerio, they will receive a contact request from your Peerio account.
 <br>
-<br>When you send messages to our support team, your email will be filed for follow-up correspondence, and any information you directly provide in your support request will be used to assist you in your support request. Please do not send any sensitive information through our support center, such as your Peerio passphrase, passcode, credit card or other payment information. 
+<br>When you send messages to our support team, your email will be filed for follow-up correspondence, and any information you directly provide in your support request will be used to assist you in your support request. Please do not send any sensitive information through our support center, such as your Peerio Account Key, credit card, or other payment information. 
 <br>
 <br>
 <h4>Ciphertext</h4>
@@ -107,7 +104,7 @@ Peerio has access to the ciphertext (encrypted data) of messages and files you s
 <br>
 <br>
 <h4>Metadata</h4>
-Some metadata of Peerio messages is accessible by Peerio’s servers and needed in order to provide services. This includes, the sender’s and recipient(s)’ usernames and Peerio Public Keys; the time at which messages and files are sent and received; the size of files uploaded to Peerio; the message ID that a file is attached to; and a user's Peerio contacts’ usernames and public keys. 
+ Some metadata of Peerio messages is accessible by Peerio’s servers and needed in order to provide services. This includes, the sender’s and recipient(s)’ usernames and Peerio ID#s; the time at which messages and files are sent and received; the size of files uploaded to Peerio; the message ID that a file is attached to; and a user's Peerio contacts’ usernames and Peerio ID#s. 
 <br>
 <br>
 <h4>Account information</h4>
@@ -163,7 +160,7 @@ Peerio retains user data only as long is necessary to provide Peerio’s service
 <br>
 <br>If you delete a message or a file that you have previously shared, it will not be removed from our servers until all recipients have also removed it from their account(s), at which point the message or file and its metadata will be securely wiped within 24 hours. If you delete a message or file that you have not shared with anyone,  that data and associated metadata will be securely wiped from Peerio’s servers within 24 hours. 
 <br>
-<br>If you destroy a file, it will be removed from Peerio’s servers, network, and all users immediately. However, we cannot destroy evidence that a file with a particular encrypted file ID was once sent in a message. The message it was sent in will have a trace of this ID, as it is in the encrypted body of the message. Because it is encrypted, we are unable to remove it from such messages. This allows the Peerio app to verify that files the server has sent with a message were put there by the designated sender, and not a third party. Peerio cannot read the plaintext name of the file.
+<br>If you delete and unshare a file, it will be removed from Peerio’s servers, network, and all users immediately. However, we cannot destroy evidence that a file with a particular encrypted file ID was once sent in a message. The message it was sent in will have a trace of this ID, as it is in the encrypted body of the message. Because it is encrypted, we are unable to remove it from such messages. This allows the Peerio app to verify that files the server has sent with a message were put there by the designated sender, and not a third party. Peerio cannot read the plaintext name of the file.
 <br>
 <br>Upon account deletion, Peerio removes all your data from our servers and network, except for your account username, your Peerio Public Key, and any messages and files you have shared with other users that you have not destroyed. This information is necessary for your former contacts to be able to identify and decrypt messages they have received from you. This information also helps us prevent attempts to create fraudulent accounts representing a previous user.
 <br>
