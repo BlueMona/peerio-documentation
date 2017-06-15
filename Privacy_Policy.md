@@ -1,5 +1,5 @@
 <h1>Privacy Policy</h1>
-*Last updated 18 February 2015*
+*Last updated 15 June 2017*
 <br>
 <br>
 This privacy policy ("Policy") governs how Technologies Peerio Inc. (“Peerio”, "we," "us," "our," etc.) handles and processes users ("you," "your," etc.) data in the Peerio application and on our website and servers (collectively, the "Services").
