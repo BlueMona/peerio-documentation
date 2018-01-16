@@ -63,6 +63,6 @@ Peerio will periodically provide information on its website regarding the number
 Our mailing address is:
 <br>
 <br>&nbsp;&nbsp;&nbsp;Technologies Peerio, Inc.
-<br>&nbsp;&nbsp;&nbsp;1035 Laurier West, 1st Floor
-<br>&nbsp;&nbsp;&nbsp;Outremont, QC H2V 2L1
+<br>&nbsp;&nbsp;&nbsp;1280 Sherbrooke Ouest, Suite 1230
+<br>&nbsp;&nbsp;&nbsp;Montreal, QC H3G 0R1
 <br>&nbsp;&nbsp;&nbsp;Canada
