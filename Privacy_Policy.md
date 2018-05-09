@@ -1,5 +1,5 @@
 <h1>Privacy Policy</h1>
-*Last updated 15 June 2017*
+* Last updated 9 May 2018 *
 <br>
 <br>
 This privacy policy ("Policy") governs how Technologies Peerio Inc. (“Peerio”, "we," "us," "our," etc.) handles and processes users ("you," "your," etc.) data in the Peerio application and on our website and servers (collectively, the "Services").
@@ -94,7 +94,7 @@ We retain only basic information needed to provide Peerio services to users and 
 <h4>User-provided information</h4>
 When you sign up for the Peerio App, we collect the information you provided to open your account, including your username, first and last name (legal name not required), and contact information such as email addresses or phone numbers (optional). This information is used to help you connect with your contacts on Peerio, send you important updates about your account, and to offer support with account services.
 <br>
-<br>When you invite your contacts to join Peerio with the "Add Contacts" or "Import Contacts" feature, you provide us with the email addresses and/or phone numbers of your contacts. This information will be used only to send the invitation you have requested via email or SMS. We will not use this information for any other purpose. If your contact does not register for Peerio, their contact information will be securely removed automatically after ninety (90) days. If the contact does join Peerio, they will receive a contact request from your Peerio account.
+<br>When you invite your contacts to join Peerio with the "Add Contacts" or "Import Contacts" feature, you provide us with the email addresses and/or phone numbers of your contacts. This information will be used only to send the invitation you have requested via email or SMS or to notify you when one of your contacts joins Peerio. We will not use this information for any other purpose. 
 <br>
 <br>When you send messages to our support team, your email will be filed for follow-up correspondence, and any information you directly provide in your support request will be used to assist you in your support request. Please do not send any sensitive information through our support center, such as your Peerio Account Key, credit card, or other payment information. 
 <br>
@@ -166,7 +166,7 @@ Peerio retains user data only as long is necessary to provide Peerio’s service
 <br>
 <br>The Peerio Service runs on servers operated by our contractors and those servers may be located outside of Canada. 
 <br>
-<br>Information related to users you have invited to join Peerio, but who have not subsequently created an account with Peerio, will be removed after ninety (90) days. This time is solely used to help deliver contact requests and referral rewards to you and your contacts and will never be used for any other purpose.
+<br>Information related to users you have invited to join Peerio, but who have not subsequently created an account with Peerio, will be retained while your account remains active. This information is solely used to help deliver contact requests, referral rewards to you and your contacts, and to provide you with notifications when one of your contacts joins Peerio. This information will never be used for any other purpose.
 <br>
 <br>
 <h3>8. Law Enforcement Policies</h3>
