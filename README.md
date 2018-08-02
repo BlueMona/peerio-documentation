@@ -18,5 +18,6 @@ If you are interested in how Peerio responds to law enforcement, please view our
 For information on the number and nature of any requests to access user data, please view our <a href="https://github.com/PeerioTechnologies/peerio-documentation/blob/master/Transparency_Report.md">Transparency Report</a>. The transparency report was originally intended to serve as a "<a href="https://canarywatch.org/">warrant canary</a>". As of 2 August, 2018, Peerio will not be regularly updating the report. This was a voluntary position on behalf of the company and not prompted by any legal means, but rather due to team capacity and ambiguities regarding the efficacy of such updates. Please see the "<a href="https://www.eff.org/deeplinks/2016/05/canary-watch-one-year-later> Electronic Frontier Foundation's report on why they ceased updates on Canary Watch</a> for some additional insight into the decision.
 <br>
 <br>
+  
 <h4>Bug Bounty</h4>
-For informaton about Peerio's bug bounty, including rules and conditions, bounty rewards, and how to submit a claim, please view our <a href="https://www.peerio.com/resources/bug-bounty/">Bug Bounty</a>
+For informaton about Peerio's bug bounty, including rules and conditions, bounty rewards, and how to submit a claim, please view our <a href="https://www.peerio.com/resources/bug-bounty/">Bug Bounty</a>.
